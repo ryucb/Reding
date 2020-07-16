@@ -4,11 +4,11 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>LIBRARY</title>
 </head>
 <body>
 <h1>
-	나와라 시발~
+	
 </h1>
 </body>
 </html>
