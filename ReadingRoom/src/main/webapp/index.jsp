@@ -2,13 +2,9 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
-<html>
-<head>
-	<title>LIBRARY</title>
-</head>
-<body>
-<h1>
-	
-</h1>
-</body>
-</html>
+
+<!-- header 설정 -->
+<jsp:include page="/WEB-INF/views/common/header.jsp">
+	<jsp:param value="We Reading!" name="title" />
+</jsp:include>
+
