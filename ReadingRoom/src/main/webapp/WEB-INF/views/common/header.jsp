@@ -103,7 +103,7 @@
 					<div class="col-2"></div>
 					<div class="col-2"></div>
 					<div class="col-2"></div>
-					<div class="col-4" id="readIconDiv" onclick="location.replace(${path});">
+					<div class="col-4" id="readIconDiv" onclick="location.replace(${pageContext.request.contextPath });">
 						<span class="spanTitle" id="we">We</span>
 						<img id="readingIcon" onclick="location.replace('${path}');" src="${path }/resources/img/reading.png">
 						<span class="spanTitle">Reading!</span>
