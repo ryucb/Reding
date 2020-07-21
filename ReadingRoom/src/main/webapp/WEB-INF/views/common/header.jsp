@@ -37,7 +37,7 @@
     header {
     	height: 100px;
     	width: 100%;
-    	border-bottom: 2px solid gray;
+    	border-bottom: 2px solid rgb(60,60,60);
     }
     /* 부트스트랩 div 영역 설정 */
     #headerDivRow {
