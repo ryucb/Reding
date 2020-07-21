@@ -72,26 +72,10 @@
     /* ----- */
     
     /* 스위치 영역 */
-    #changeMode {
+    #projectInfoBtn {
     	width: 200px;
     	height: 50px;
     	margin: 10% auto;
-    	border-radius: 25px;
-    	text-align: center;
-    	padding-top: 5%;
-    	background-color: rgb(60,60,60);
-    }
-    #changeMode:hover{
-    	cursor: pointer;
-    	background-color: rgb(90,90,90);
-    }
-    /* 스위치 영역 내 폰트 설정 */
-    #spanMode {
-    	color: white;
-    	cursor: default;
-    }
-    #spanMode:hover {
-    	cursor: pointer;
     }
 </style>
 </head>
@@ -109,13 +93,42 @@
 						<span class="spanTitle">Reading!</span>
 					</div>			
 				</div>
+				<!-- 버튼을 누르면 나타나는 모달 영역 -->
 				<div class="col-2">
-					<div id="changeMode"><span id="spanMode">어두운 테마</span></div>
+					<!-- 버튼 -->
+					<button id="projectInfoBtn" type="button" class="btn btn-dark" data-toggle="modal" data-target="#projectInfo">프로젝트 소개</button>
+					<!-- 모달 -->
+					<div id="projectInfo" class="modal">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<!-- 헤더 -->
+								<div class="modal-header">
+									<h4 class="modal-title">프로젝트 소개</h4>
+								</div>
+								<!-- 바디 -->
+								<div class="modal-body">
+									We Reading!은 '요즘의 많은 개발이 이루어지는 무인주문시스템(키오스크)을
+									우리가 배운 언어로 구현한다면 어떨까?'<br>
+									라는 생각에서 비롯하여 만들어지게 된 프로젝트입니다. <br><br>
+									
+									웹으로 키오스크 환경을 구현함으로써 <br>
+									UI/UX를 이해하려고 노력하였습니다.<br>
+									- 아이디어 제공 및 기획 : 유슬기<br>
+									- Git 관리 : 유축복<br>
+									- DB 구현 : 이성연<br>
+								</div>
+								<!-- 푸터 -->
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 	
-	<script>
-		
-	</script>
+<script>
+	
+</script>
