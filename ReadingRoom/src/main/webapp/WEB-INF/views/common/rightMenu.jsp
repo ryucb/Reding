@@ -88,7 +88,8 @@
 	<div class="card-deck">
 		<!-- 1번째 메뉴 -->
 	<div class="card">
-		<div id="userLoginCard" class="card-body text-center cardRadius">
+		<div id="userLoginCard" class="card-body text-center cardRadius"
+		onclick="location.replace('${path}/user/userLoginScreen.do');">
 			<p class="card-text">USER LOG-IN</p>
 			<img id="login_icon" src="${pageContext.request.contextPath}/resources/img/loginWhite.png">
 		</div>
