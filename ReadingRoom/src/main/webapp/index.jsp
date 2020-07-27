@@ -59,38 +59,14 @@
 		top: -55%;
 		left: 1%;
 	}
-	##squareP:hover {
+	#squareP:hover {
 		cursor: auto;
 	}
-	/* 화면 밑 버튼 영역 */
-	#screenBottom {
-		border-radius: 25px;
-		
-		margin: 0 auto;
-		padding-top: 2%;
-		padding-bottom: 2%;
-		
-		height: 20%;
-		width: 98%;
-		text-align: center; /* 하위 요소를 가운데로! */
-	}
-	/* 화면 밑 버튼 설정 */
-	.btnSetting {
-		width: 30%;
-		height: 100%;
-	}
-	
-	
-	
-	/* ------------------------------------------------- */
-	
-	
 </style>
 
 <section>
 	<div class="container-fluid">
 		<div class="row">
-			
 			<!-- 왼쪽 화면 영역 -->
 			<div class="col-6" id="screenBG">
 				<div id="screenOut">
@@ -102,10 +78,7 @@
 						<p id="squareP">We Reading</p>
 					</div>
 					<!-- 화면 밑 버튼 부분 -->
-					<div id="screenBottom" class="col-12">
-						<button type="button" id="firstBtn" class="btn btn-info btnSetting">1</button>
-						<button type="button" class="btn btn-light btnSetting">2</button>
-					</div>
+					<jsp:include page="/WEB-INF/views/common/leftButton.jsp"/>
 				</div>
 			</div>
 			
