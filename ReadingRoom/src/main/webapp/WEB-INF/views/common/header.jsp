@@ -19,8 +19,8 @@
 
 <!-- 파비콘 생성 -->
 <link rel="shortcut icon" type="image/x-icon" href="${path}/resources/img/reading.png"/>
-<!-- 폰트 적용 두한 + 노트산스-->
-<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<!-- 폰트 적용 두한 + 노트산스 + Dancing Script -->
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Dancing+Script:wght@600&family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
 <style>
 	/* 전체에 폰트 적용 */
@@ -115,7 +115,9 @@
 									UI/UX를 이해하려고 노력하였습니다.<br>
 									- 아이디어 제공 및 기획 : 유슬기<br>
 									- Git 관리 : 유축복<br>
-									- DB 구현 : 이성연<br>
+									- DB 구현 : 이성연<br><br>
+									
+									프로젝트 해상도 : 1920x1080
 								</div>
 								<!-- 푸터 -->
 								<div class="modal-footer">
