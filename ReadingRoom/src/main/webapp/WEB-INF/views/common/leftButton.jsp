@@ -27,6 +27,5 @@
 	
 <!-- 좌측 화면 밑 버튼 영역 -->
 <div id="screenBottom" class="col-12">
-	<button type="button" id="firstBtn" class="btn btn-info btnSetting">1</button>
-	<button type="button" class="btn btn-light btnSetting">2</button>
+	<button type="button" id="firstBtn" class="btn btn-info btnSetting">HOME</button>
 </div>
