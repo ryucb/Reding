@@ -9,11 +9,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class User {
 	// 유저(멤버) 객체
-	int mb_code; // 사용자 코드(번호)
-	String mb_id; // 아이디
-	String mb_pw; // 비밀번호
-	String mb_name; // 이름
-	String mb_email; // 이메일
-	String mb_rating; // 등급(member/admin)
-	String mb_status; // 회원탈퇴여부(Y/N)
+	int userNo; // 사용자 코드(번호)
+	String userId; // 아이디
+	String userPw; // 비밀번호
+	String name; // 이름
+	String email; // 이메일
+	String rating; // 등급(member/admin)
+	String status; // 회원탈퇴여부(Y/N)
 }
